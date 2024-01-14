@@ -385,7 +385,7 @@ const en: LocaleType = {
     Failed: "Download failed.",
   },
   Context: {
-    Toast:"",
+    Toast: (x: any) => `With ${x} contextual prompts`,
     Edit: "Current Chat Settings",
     Add: "Add a Prompt",
     Clear: "Context Cleared",
