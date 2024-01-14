@@ -40,7 +40,7 @@ const en: LocaleType = {
       Stop: "Stop",
       Retry: "Retry",
       Pin: "Pin",
-      PinToastContent: "Pinned 1 messages to contextual prompts",
+      PinToastContent: "Pinned 1 messages to ",
       PinToastAction: "View",
       Delete: "Delete",
       Edit: "Edit",
@@ -385,7 +385,7 @@ const en: LocaleType = {
     Failed: "Download failed.",
   },
   Context: {
-    Toast: (x: any) => `With ${x} contextual prompts`,
+    Toast: (x: any) => "",
     Edit: "Current Chat Settings",
     Add: "Add a Prompt",
     Clear: "Context Cleared",
