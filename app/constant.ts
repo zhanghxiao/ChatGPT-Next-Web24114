@@ -12,7 +12,7 @@ export const DEFAULT_CORS_HOST = "https://a.nextweb.fun";
 export const DEFAULT_API_HOST = `${DEFAULT_CORS_HOST}/api/proxy`;
 export const OPENAI_BASE_URL = "https://api.openai.com";
 
-export const GEMINI_BASE_URL = "https://generativelanguage.googleapis.com/";
+export const GEMINI_BASE_URL = "https://gemini.xiaochatgpt.xyz/";
 
 export enum Path {
   Home = "/",
@@ -87,7 +87,7 @@ export const Azure = {
 };
 
 export const Google = {
-  ExampleEndpoint: "https://generativelanguage.googleapis.com/",
+  ExampleEndpoint: "https://gemini.xiaochatgpt.xyz/",
   ChatPath: "v1beta/models/gemini-pro:generateContent",
 
   // /api/openai/v1/chat/completions
